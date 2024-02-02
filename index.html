@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>推し活情報サイト</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>投稿ページ</h1>
+    <div class="container">
+        <!-- 投稿フォーム -->
+        <section class="post-form">
+            <h2>新規投稿</h2>
+            <form id="newPostForm">
+                <textarea id="postContent" placeholder="今何を考えていますか？" aria-label="投稿内容"></textarea>
+                <button type="submit">投稿</button>
+            </form>
+        </section>
+
+         <!-- ユーザーのエンゲージメントを促すセクション -->
+        <!-- <section class="engagement-section">
+            <h2>あなたの推しをシェアしよう！</h2>
+            <p>あなたの推し活を共有して、同じ趣味を持つ仲間を見つけましょう。</p>
+            <button id="shareButton">シェアする</button>
+        </section> -->
+
+        <!-- 投稿表示セクション -->
+        <section class="posts">
+            <h2>投稿一覧</h2>
+            <div id="postsContainer">
+                <!-- 投稿内容はここに動的に挿入 -->
+            </div>
+        </section>
+    </div>
+    <script src="js/script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+/* 基本設定 */
+body {
+    font-family: 'Poppins', sans-serif; /* トレンドのフォント */
+    background-color: #f8f9fa; /* 明るく清潔感のある背景色 */
+    color: #333; /* 基本のテキストカラー */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px; /* レスポンシブ対応のための最大幅設定 */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* 投稿フォームと投稿表示セクション */
+.post-form, .posts {
+    background-color: white;
+    border-radius: 10px; /* 角を丸くする */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* 影をつけて浮き上がらせる */
+    margin-top: 20px;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #007bff; /* 明るいブルー */
+    font-weight: 600; /* 太字 */
+}
+
+#postContent {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #e1e8ed;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1); /* 内側に影をつける */
+}
+
+button {
+    background-color: #28a745; /* 明るいグリーン */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px; /* サイズを大きく */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* ホバー時の遷移を滑らかに */
+}
+
+button:hover {
+    background-color: #218838; /* 暗いグリーン */
+}
+
+/* 投稿コンテンツのスタイル */
+.post {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* 新規追加セクションのスタイル */
+.engagement-section {
+    text-align: center; /* 中央揃え */
+    padding: 40px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-top: 30px;
+}
+
+.engagement-section h2 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.engagement-section p {
+    color: #555;
+    margin-bottom: 25px;
+}
+
+#shareButton {
+    background-color: #ff4081; /* 明るいピンク */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#shareButton:hover {
+    background-color: #e60073; /* 濃いピンク */
+}
+
+/* レスポンシブデザイン */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+}
